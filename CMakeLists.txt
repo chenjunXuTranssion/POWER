@@ -49,6 +49,9 @@ add_executable(PowerDAQ
     # --- 第三方库 ---
     3rdparty/QCustomPlot/qcustomplot.cpp
     3rdparty/QCustomPlot/qcustomplot.h
+    3rdparty/spdlog.h
+    3rdparty/concurrentqueue.h
+
 )
 
 target_include_directories(PowerDAQ PRIVATE
