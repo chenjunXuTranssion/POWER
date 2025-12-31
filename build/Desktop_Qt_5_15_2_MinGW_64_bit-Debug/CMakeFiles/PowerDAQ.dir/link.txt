@@ -1,0 +1,3 @@
+D:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\PowerDAQ.dir/objects.a
+D:\Qt\Tools\mingw810_64\bin\ar.exe qc CMakeFiles\PowerDAQ.dir/objects.a @CMakeFiles\PowerDAQ.dir\objects1.rsp
+D:\Qt\Tools\mingw810_64\bin\g++.exe -DQT_QML_DEBUG -g -Wl,--whole-archive CMakeFiles\PowerDAQ.dir/objects.a -Wl,--no-whole-archive -o PowerDAQ.exe -Wl,--out-implib,libPowerDAQ.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PowerDAQ.dir\linkLibs.rsp
